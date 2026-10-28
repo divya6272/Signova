@@ -1,4 +1,4 @@
-# 🚀 Signova – Two-Way Indian Sign Language Communication System
+#  Signova – Two-Way Indian Sign Language Communication System
 
 Signova is a deep learning–based Indian Sign Language (ISL) recognition system designed to bridge the communication gap between deaf and hearing individuals.
 
@@ -9,7 +9,7 @@ The system supports two-way communication by converting:
 
 This project is a research-driven prototype focused on simplicity, real-time performance, and accessibility using a standard webcam.
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Many deaf and hard-of-hearing people use sign language to communicate. However, communication barriers arise when others do not understand sign language, particularly in:
 
@@ -20,7 +20,7 @@ Many deaf and hard-of-hearing people use sign language to communicate. However, 
 
 Signova explores a camera-based approach to sign language recognition without requiring specialized sensors or wearable devices.
 
-## 🎯 Objectives
+##  Objectives
 
 - Enable real-time ISL gesture recognition.
 - Support two-way communication.
@@ -28,7 +28,7 @@ Signova explores a camera-based approach to sign language recognition without re
 - Use low-cost, camera-based vision.
 - Explore accessible sign language communication.
 
-## 🧠 System Overview
+##  System Overview
 
 The system follows these stages:
 
@@ -46,7 +46,7 @@ For text-to-sign communication, the system displays corresponding ISL GIFs.
 
 **Text → Gesture Mapping → ISL GIF**
 
-## 📊 Dataset Details
+##  Dataset Details
 
 A custom Indian Sign Language hand gesture dataset was created specifically for the Signova project.
 
@@ -76,7 +76,7 @@ The dataset contains images for the following 12 gesture classes:
 11. Thank You
 12. Friends
 
-### 📥 Download Dataset
+###  Download Dataset
 
 The complete dataset is available as a ZIP file in the GitHub Releases section.
 
@@ -84,7 +84,7 @@ The complete dataset is available as a ZIP file in the GitHub Releases section.
 
 The dataset is shared to encourage learning, experimentation, and further development of sign language recognition systems.
 
-### 📜 Dataset License
+###  Dataset License
 
 The Signova hand gesture dataset is intended to be released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
@@ -96,7 +96,7 @@ Under this license, users may share, adapt, and use the dataset, including comme
 
 *Note: The dataset license applies only to the dataset and does not automatically determine the license for the project's source code.*
 
-## ⚙️ Models Used
+##  Models Used
 
 Three deep learning architectures were trained and compared during experimentation.
 
@@ -106,7 +106,7 @@ Three deep learning architectures were trained and compared during experimentati
 | RNN | Approximately 99.8% | Approximately 90.9% | Explored for sequential learning |
 | LSTM | Approximately 99.9% | Approximately 99.9% | Computationally heavier |
 
-### ✅ Final Model Choice: CNN
+###  Final Model Choice: CNN
 
 CNN was selected for the image-based gesture recognition prototype because:
 
@@ -116,7 +116,7 @@ CNN was selected for the image-based gesture recognition prototype because:
 
 Reported accuracy values are based on project experiments and may vary with the dataset split and evaluation conditions.
 
-## 🧪 Features
+##  Features
 
 - 📷 Real-time hand gesture recognition using a webcam.
 - 🔁 Two-way communication workflow.
@@ -125,7 +125,7 @@ Reported accuracy values are based on project experiments and may vary with the 
 - 🎞️ Text-to-ISL GIF conversion.
 - 💻 No specialized external hardware required.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - Python
 - TensorFlow / Keras
@@ -135,7 +135,7 @@ Reported accuracy values are based on project experiments and may vary with the 
 - Matplotlib
 - Deep Learning (CNN, RNN, LSTM)
 
-## 🚧 Limitations
+##  Limitations
 
 - Currently supports only 12 predefined gesture classes.
 - Recognition performance may vary with lighting, background, and hand positioning.
@@ -143,7 +143,7 @@ Reported accuracy values are based on project experiments and may vary with the 
 - Continuous and dynamic sign language recognition requires further development.
 - Recognition accuracy may vary in real-world environments.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Expand the dataset with more gesture classes and variations.
 - Improve robustness using more diverse training images.
@@ -152,13 +152,13 @@ Reported accuracy values are based on project experiments and may vary with the 
 - Explore regional sign language variations.
 - Improve accessibility and real-world usability.
 
-## 📄 Research Paper
+##  Research Paper
 
 This project is associated with the following research paper:
 
 [Read the Research Paper](https://drive.google.com/file/d/1XpfLapwE3EMod1H7S3rmuE991q-UMRRr/view?usp=sharing)
 
-## 🤝 Contributions
+##  Contributions
 
 Contributions, suggestions, and improvements are welcome.
 
@@ -166,7 +166,7 @@ If you use the dataset, please follow its license terms and provide appropriate 
 
 You can fork this repository, experiment with the project, and submit a pull request with improvements.
 
-## ⭐ Final Note
+##  Final Note
 
 Signova aims to explore how deep learning and computer vision can support more inclusive and accessible communication.
 
